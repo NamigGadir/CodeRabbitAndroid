@@ -1,5 +1,6 @@
 package com.coderabbit.app.calculator
 
+import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
 import org.junit.Test
 
@@ -9,5 +10,11 @@ class CalculatorTest {
     fun `test add function`() {
         val calculator = Calculator()
         assertTrue(calculator.add(1,2) == 3)
+    }
+
+    @Test
+    fun `test add function equals`() {
+        val calculator = Calculator()
+        assertEquals(calculator.add(1,2) ,3)
     }
 }
