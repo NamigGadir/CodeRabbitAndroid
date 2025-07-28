@@ -40,6 +40,14 @@ class CalculatorTest {
     }
 
     @Test
+    fun `test divide function che divide thirteen`() {
+        val calculator = Calculator()
+        assertThrows(ArithmeticException::class.java){
+            calculator.divide(13,0)
+        }
+    }
+
+    @Test
     fun `test divide function che divide zero`() {
         val calculator = Calculator()
         assertThrows(ArithmeticException::class.java){
