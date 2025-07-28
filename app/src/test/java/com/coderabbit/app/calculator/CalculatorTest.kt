@@ -17,4 +17,10 @@ class CalculatorTest {
         val calculator = Calculator()
         assertEquals(calculator.add(1,2) ,3)
     }
+
+    @Test
+    fun `test divide function equals`() {
+        val calculator = Calculator()
+        assertEquals(calculator.divide(4,2) ,2)
+    }
 }
