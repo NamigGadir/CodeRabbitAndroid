@@ -26,6 +26,12 @@ class CalculatorTest {
     }
 
     @Test
+    fun `test divide function equals second phase`() {
+        val calculator = Calculator()
+        assertEquals(calculator.add(0,0) ,0)
+    }
+
+    @Test
     fun `test divide function che divide`() {
         val calculator = Calculator()
         assertThrows(ArithmeticException::class.java){
