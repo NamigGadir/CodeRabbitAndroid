@@ -48,6 +48,15 @@ class CalculatorTest {
     }
 
     @Test
+    fun `test divide function throws exception when dividing forty by zero`() {
+        val calculator = Calculator()
+        assertThrows(ArithmeticException::class.java){
+            calculator.divide(40,0)
+        }
+    }
+
+
+    @Test
     fun `test divide function che divide fourteen`() {
         val calculator = Calculator()
         assertThrows(ArithmeticException::class.java){
