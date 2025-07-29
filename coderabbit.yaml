@@ -23,7 +23,13 @@ reviews:
   auto_apply_labels: false
   suggested_reviewers: true
   auto_assign_reviewers: false
-  poem: true
+  poem: false
+  path_instructions:
+    - path: "**/test/**"
+      instructions: |
+        - test function names should follow naming rules like given (optional) ... when (required) ... then(required)
+        
+
   labeling_instructions:
     - label: ""
       instructions: ""
