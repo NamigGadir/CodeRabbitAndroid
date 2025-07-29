@@ -27,7 +27,7 @@ reviews:
   path_instructions:
     - path: "**/test/**"
       instructions: |
-        - test function names should follow naming rules like given (optional) ... when (required) ... then(required)
+        - function names should follow naming rules like given (optional) ... when (required) ... then(required)
         
 
   labeling_instructions:
