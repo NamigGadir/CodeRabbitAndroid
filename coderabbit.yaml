@@ -148,7 +148,7 @@ knowledge_base:
   code_guidelines:
     enabled: true
     filePatterns:
-      - .github/instructions.md
+      - .github/copilot-instructions.md
   learnings:
     scope: auto
   issues:
