@@ -87,4 +87,10 @@ class CalculatorTest {
             calculator.divide(20,0)
         }
     }
+
+    @Test
+    fun `test minus function be correct`() {
+        val calculator = Calculator()
+        assertEquals(calculator.minus(4,2) ,2)
+    }
 }
